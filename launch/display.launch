@@ -6,7 +6,7 @@
     default="False" />
   <param
     name="robot_description"
-    textfile="$(find dji drone)/urdf/dji drone.urdf" />
+    textfile="$(find djidrone)/urdf/dji drone.urdf" />
   <param
     name="use_gui"
     value="$(arg gui)" />
@@ -22,5 +22,5 @@
     name="rviz"
     pkg="rviz"
     type="rviz"
-    args="-d $(find dji drone)/urdf.rviz" />
+    args="-d $(find djidrone)/urdf.rviz" />
 </launch>
